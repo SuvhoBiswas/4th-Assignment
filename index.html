@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Suvho's Portfolio</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+
+<body class="font-sans bg-white text-gray-800">
+  <!-- Navbar -->
+  <nav class="flex items-center justify-between p-6 shadow-md">
+    <div class="flex items-center space-x-2">
+      <div class="bg-purple-600 text-white rounded-full h-10 w-10 flex items-center justify-center font-bold">S</div>
+      <span class="text-xl font-semibold">Suvho</span>
+    </div>
+    <ul class="flex space-x-6">
+      <li><a href="#home" class="hover:text-purple-600">Home</a></li>
+      <li><a href="#projects" class="hover:text-purple-600">Projects</a></li>
+      <li><a href="#about" class="hover:text-purple-600">About</a></li>
+      <li><a href="#contact" class="hover:text-purple-600">Contact</a></li>
+    </ul>
+    <button class="bg-purple-600 text-white px-4 py-2 rounded hover:bg-purple-700">Let's Talk</button>
+  </nav>
+
+  <!-- Banner -->
+  <section id="home" class="flex flex-col md:flex-row items-center justify-between px-8 py-16 bg-gray-100">
+    <div>
+      <h1 class="text-4xl font-bold mb-4">Hello, I'm Suvho Biswas</h1>
+      <p class="text-lg mb-6">Currently I am working to make myself a blockchain developer, after completing Open Resource I enrolled in a course of six months duration at NonAcademy, currently doing this course with dedication</p>
+      <a href="https://drive.google.com/file/d/1K-ByGqTkP_Cl4ets6nwBReXmsoD-6wKl/view?usp=sharing" download
+   class="bg-purple-600 text-white px-6 py-2 rounded hover:bg-purple-700 inline-block">
+  Download CV
+</a>
+
+    </div>
+    <img src="https://i.ibb.co.com/k2nntq14/Suvho-pasport-zise-photo.jpg" alt="Suvho" class="w-64 h-64 rounded-full border-4 border-purple-600 mt-8 md:mt-0" />
+  </section>
+
+  <!-- Process -->
+  <section id="process" class="px-8 py-16 bg-white">
+    <h2 class="text-2xl font-bold text-center mb-8">Work Process</h2>
+    <p class="text-lg mb-6">Plan the blockchain solution by defining goals, use cases, and target users.
+      Design the system architecture, smart contracts, and user interface.
+      Develop with Solidity and integrate front-end, followed by testing and auditing.
+      Launch on the mainnet securely after successful testing.
+      Maintain the system, fix bugs, and update smart contracts to ensure long-term scalability and performance.</p>
+    <div class="grid grid-cols-1 md:grid-cols-4 gap-6 text-center">
+      <div><img src="https://www.investopedia.com/thmb/pzT2wbISy-wNtMypVlBjr39dydg=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/Blockchain_final-086b5b7b9ef74ecf9f20fe627dba1e34.png" alt="Plan" class="mx-auto mb-2"><p>Plan</p></div>
+      <div><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJjoug647fGlDj_JP_eFX1umz51b4H8s8iFi5kwERyi-_VYY7Ti1qV6oFBXsn8EXxsUTI&usqp=CAU" alt="Design" class="mx-auto mb-2"><p>Design</p></div>
+      <div><img src="https://media.geeksforgeeks.org/wp-content/cdn-uploads/20200612211442/Top-10-Programming-Languages-for-Blockchain-Development.png" alt="Code" class="mx-auto mb-2"><p>Develop</p></div>
+      <div><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQOH9pFKk5LUfGtD5zhZJr8Fkp2uYgw6T9-0B6Uu9IuzNZUnwqkiO16t-uoHj_IsMycaUA&usqp=CAU" alt="Launch" class="mx-auto mb-2"><p>Launch</p></div>
+    </div>
+  </section>
+
+  <!-- Projects -->
+  <section id="projects" class="px-8 py-16 bg-gray-50">
+    <h2 class="text-2xl font-bold text-center mb-8">Blockchain Projects</h2>
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+      <div class="bg-white p-4 shadow rounded">
+        <img src="https://www.blockchain-council.org/wp-content/uploads/2022/01/What-is-an-NFT-marketplace-and-How-Do-You-Create-Your-Own-01-1-scaled.jpg" alt="NFT Project" class="mb-4">
+        <h3 class="text-xl font-semibold mb-2">NFT Marketplace</h3>
+        <p class="text-sm">A decentralized NFT trading platform built on Ethereum.</p>
+      </div>
+      <div class="bg-white p-4 shadow rounded">
+        <img src="https://www.debutinfotech.com/_next/image?url=https%3A%2F%2Fblogs.debutinfotech.com%2Fwp-content%2Fuploads%2F2024%2F08%2FDeFi-Platforms.jpg&w=640&q=85" alt="DeFi App" class="mb-4">
+        <h3 class="text-xl font-semibold mb-2">DeFi Lending DApp</h3>
+        <p class="text-sm">A smart contract based lending platform on Polygon.</p>
+      </div>
+      <div class="bg-white p-4 shadow rounded">
+        <img src="https://cdn.prod.website-files.com/641bf93168c8e43fc1b1307e/64493328767be5271335f99d_20230426T0220-d5f34384-ee9b-48fc-9af9-d1f1582c9dca.jpeg" alt="Token Launch" class="mb-4">
+        <h3 class="text-xl font-semibold mb-2">Token Launchpad</h3>
+        <p class="text-sm">A platform to launch and manage new ERC20 tokens.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Work Together -->
+  <section class="bg-purple-700 text-white text-center py-12">
+    <h2 class="text-2xl font-bold mb-4">Do you have a project idea?</h2>
+    <p class="mb-6">Let’s discuss your project and make something great!</p>
+    <button class="bg-white text-purple-700 px-6 py-2 rounded hover:bg-gray-100">Start a Project</button>
+  </section>
+
+  <!-- About -->
+  <section id="about" class="px-8 py-16 bg-white">
+    <h2 class="text-2xl font-bold text-center mb-8">What I Do?</h2>
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+      <div class="p-4 shadow border rounded">
+        <h3 class="text-xl font-semibold mb-2">Smart Contract Dev</h3>
+        <p>Experience in Solidity and building secure, optimized contracts.</p>
+      </div>
+      <div class="p-4 shadow border rounded">
+        <h3 class="text-xl font-semibold mb-2">DeFi Solutions</h3>
+        <p>Expertise in lending protocols, staking, and decentralized exchanges.</p>
+      </div>
+      <div class="p-4 shadow border rounded">
+        <h3 class="text-xl font-semibold mb-2">Web3 DApp Integration</h3>
+        <p>Frontend integration with smart contracts using web3.js and ethers.js.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="px-8 py-16 bg-gray-100">
+    <h2 class="text-2xl font-bold text-center mb-8">Let's Discuss Your Project</h2>
+    <form class="max-w-xl mx-auto bg-white p-6 rounded shadow">
+      <input type="text" placeholder="Name" class="w-full p-2 border mb-4 rounded" />
+      <input type="email" placeholder="Email" class="w-full p-2 border mb-4 rounded" />
+      <textarea placeholder="Your Message" class="w-full p-2 border mb-4 rounded" rows="4"></textarea>
+      <button class="bg-purple-600 text-white px-6 py-2 rounded hover:bg-purple-700">Send Message</button>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-gray-900 text-white text-center py-4">
+    <p>&copy; 2025 Suvho Biswas. All rights reserved.</p>
+  </footer>
+</body>
+
+</html>
